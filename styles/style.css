@@ -1,0 +1,28 @@
+.mirror-containerer
+{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.mirror-container
+{
+    display: flex;
+    width: 100%;
+}
+
+.mirror
+{
+    flex-direction: row;
+    align-items: flex-end;
+    margin: 20px;
+    width: 50%;
+    height: 20px;
+}
+
+#text-input
+{
+    justify-content: space-around;
+    margin: 10px auto;
+    width: 25%;
+}
